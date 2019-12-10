@@ -1,0 +1,15 @@
+{
+  "name": "meta-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx"
+  },
+  "author": "Joris van de Donk <jorisvddonk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "^3.0.13"
+  }
+}

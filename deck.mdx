@@ -1,0 +1,449 @@
+import { future, highlight, condensed, dark } from 'mdx-deck/themes'
+import {
+  Invert,
+  Split,
+  SplitRight,
+  Horizontal,
+  FullScreenCode,
+  Appear,
+  Notes
+} from 'mdx-deck'
+
+export const themes = [
+  condensed,
+  highlight
+]
+
+# Meta
+
+---
+
+## So, I really like presenting...
+
+---
+
+## ...but I'm dealing with a bit of a problem lately
+
+---
+
+<h2>The <em>meta</em> is getting way too insane!</h2>
+
+---
+
+<div
+  dangerouslySetInnerHTML={{
+    __html: `
+        <iframe width="893" height="502" src="https://www.youtube.com/embed/-PX0BV9hGZY?start=67&end=97" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    `,
+  }}
+/>
+
+---
+
+## These presentations have gotten _too damn good_!
+
+---
+
+## I gotta learn how to sing and shit!?
+
+---
+
+## Clearly, there's a problem, and only one thing we can do!
+
+---
+
+# Reset the Meta
+
+<Appear>
+
+
+### How to: make presentations shit again
+
+
+<small>Joris van de Donk, 2019</small>
+
+
+</Appear>
+
+---
+
+# Disclaimer!
+
+<ul>
+<Appear>
+  <li>This is mostly my own thoughts</li>
+  <li>Based on my own observations</li>
+  <li>I have no idea what I am talking about</li>
+</Appear>
+</ul>
+
+---
+
+## I can't comprehend things like this:
+
+```JavaScript
+if (!(doNotOfferCheapHamsters === false)) {
+  // ???
+}
+```
+
+<Appear>
+  <p>So I'm just gonna tell you how to do a <em>good</em> presentation</p>
+  <p>..and then we can agree that you will do <em>the opposite</em> 😜</p>
+</Appear>
+
+---
+
+<Invert>
+
+# Act 1: The most important stuff
+
+</Invert>
+
+---
+
+## Three keys to success
+
+Be:
+
+<ul>
+<Appear>
+<li>Confident</li>
+<li>Comfortable</li>
+<li>Enjoying it</li>
+</Appear>
+</ul>
+
+---
+
+## If you've got that covered, you're good!
+
+Hopefully you already are all that...
+
+<Appear><p>...cause it's outside of the scope of this presentation 😜</p></Appear>
+
+---
+
+<Invert>
+
+# Act 2: What's a presentation?
+
+</Invert>
+
+---
+
+### Goal:
+
+<Horizontal>
+
+
+#### Inform
+
+
+<div>&nbsp;</div>
+
+
+#### Inspire
+
+
+<div>&nbsp;</div>
+
+
+#### Entertain
+
+
+</Horizontal>
+
+
+<Notes>
+
+  Check the source code of this slide for some nasty hack :P
+
+</Notes>
+
+---
+
+### Two qualities:
+
+<Horizontal>
+
+<div style={{paddingRight: "50px"}}>
+  <h3>Worthiness</h3>
+  <Appear>
+    <ul>
+      <li>New content</li>
+      <li>Understandable</li>
+      <li>Impactful</li>
+    </ul>
+  </Appear>
+</div>
+
+<div style={{paddingLeft: "50px"}}>
+  <h3>Memorability</h3>
+  <Appear>
+    <ul>
+      <li>Fun</li>
+      <li>Unique</li>
+      <li>Engaging</li>
+    </ul>
+  </Appear>
+</div>
+
+</Horizontal>
+
+<Notes>
+
+Think about the time aspect as well w.r.t. Impactful, e.g. a presentation about an event that takes place next week ain’t gonna be that relevant after the event has taken place...
+
+</Notes>
+
+---
+
+### Three aspects:
+
+<Horizontal style={{width: '60%'}}>
+
+
+#### Subject
+
+
+#### Theme
+
+
+#### Quirk
+
+
+</Horizontal>
+
+<Notes>
+
+  Most people stop at Subject!
+  Sometimes you also add _Style_ to this as well, but that's more a _performance_ thing.
+
+</Notes>
+
+---
+
+_Subject_ through the lens of _Theme_, but _Quirk_
+
+<Notes>
+
+Subject is the content / Impactful bit
+Theme makes it understandable and engaging
+Quirk makes it fun, engaging and unique
+
+</Notes>
+
+---
+
+### Example: [livecoding presentation](https://github.com/jorisvddonk/livecoding_presentation)
+
+<Appear>
+  <p><em>Subject:</em> Music and sound</p>
+  <p><em>Theme:</em> Livecoding</p>
+  <p><em>Quirk:</em> A guitar is used as a slide clicker</p>
+</Appear>
+
+---
+
+### Example: [Welcome to the Future](https://github.com/jorisvddonk/WelcomeToTheFuture)
+
+<Appear>
+  <p><em>Subject:</em> GraphQL</p>
+  <p><em>Theme:</em> Space travel and exploration</p>
+  <p><em>Quirk:</em> The presentation is done through a game</p>
+</Appear>
+
+---
+
+### The best presentations do this right!
+
+* [Bret Victor - The Future of Programming](http://worrydream.com/dbx/) (my fav!)
+* [Gary Bernhardt - The Birth & Death of JavaScript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
+
+---
+
+If you want to _level up_, focus on this!
+
+---
+
+> Coming up with these things and _making it happen_ is the most fun part of making presentations
+
+<Appear><p>(me, 2019)</p></Appear>
+
+---
+
+<Invert>
+
+# Act 3: Roadmap for a great presentation
+
+</Invert>
+
+---
+
+<ol>
+  <li>Think about intended <em>Goal</em>, <em>Qualities</em> and <em>Aspects</em></li>
+<Appear>
+  <li>Budget time, then make the presentation</li>
+  <li>Reflect, make alterations if needed <span style={{fontSize: '0.5em'}}>(don't wanna forget to add in your JavaScript jokes!)</span></li>
+  <li>Prepare before the presentation</li>
+  <li>Present!</li>
+  <li>Reflect again</li>
+</Appear>
+</ol>
+
+---
+
+## A few helpful considerations/questions:
+
+<ul>
+<Appear>
+  <li>Who is your audience? What is their familiarity with your subject?</li>
+  <li>What's the takeaway?</li>
+  <li>Do you want/expect people to refer back to the slide deck afterwards?</li>
+  <li>Will the presentation be recorded?</li>
+  <li>Can you <em>actually</em> do one of these fancy three-words-per-slide decks?</li>
+  <li>Are there constraints to the tone? (e.g. business formal)</li>
+  <li>How high of a bar is expected?</li>
+  <li>Do you <em>want</em> to make it awesome? Do you have the time to do so?</li>
+</Appear>
+</ul>
+
+---
+
+## How much of your time are you going to spend?
+
+Assuming you're _confident_, _comfortable_ and _enjoying it_:
+
+<div style={{paddingLeft: '100px', paddingRight: '100px'}}>
+
+| Awesomeness | Time to get there from scratch(ish) |
+| --- | --- |
+| Mediocre | 1 hour |
+| OK | 3 hours |
+| Good | 8 hours |
+| Great | 40 hours |
+| Fantastic | 300 hours |
+| World-class | 😱 |
+
+</div>
+
+---
+
+<Invert>
+
+# Act 4: Tools
+
+</Invert>
+
+---
+
+## Terrible presentations are made with:
+
+* Powerpoint
+* Google Slides
+* Whatever you have on MacOS ¯\\_(ツ)_/¯
+
+---
+
+## These tools can't:
+
+* Syntax highlight like a boss
+* Show images in fullscreen at the correct aspect ratio
+* Do cool interactive stuff
+
+---
+
+## You're an engineer!
+
+<Appear>
+  <p>You wanna show some <em>code</em>!</p>
+  <p>You wanna make it interactive!</p>
+  <p>You wanna <em>commit</em> (to) your presentation!</p>
+</Appear>
+
+---
+
+## Tools for lazy(ish) engineers
+
+* [MDX-deck](https://github.com/jxnblk/mdx-deck) (I'm [using this right now](https://github.com/jorisvddonk/meta-presentation)!)
+* [Bespoke.js](http://markdalgleish.com/projects/bespoke.js/) (I've [used this recently](https://github.com/jorisvddonk/livecoding_presentation)!)
+* [Impress.js](https://github.com/impress/impress.js/) (I've used this 8 years ago!)
+* [Code-Surfer](https://github.com/pomber/code-surfer/) (I wanna use this!)
+
+---
+
+<Invert>
+
+# Appendix I: Common mistakes & Hacks
+
+</Invert>
+
+---
+
+## Common mistakes
+
+* No _slide numbers_
+* Not _introducing new topics_ properly
+* Not _guiding user attention_ properly
+  * Too many transitions / too few transitions / too flashy transitions
+* _Nervosity_ causing bad breathing cadence and incorrect speaking tempo
+  * Solution: calm down, drink some water!
+  * Clear your mind before you start; do not commit to a deep conversation just before starting!
+* Not specifying whether it's _okay to interrupt_ during the presentation or if you'd prefer questions at the end
+* Sloppy _slide template usage_ (e.g. forgetting to update the year in the copyright notice, sample text)
+
+---
+
+## Some more common mistakes
+
+* _Unreadable text_ (incorrect text sizes, bad contrast, usage of color to convey important information that can’t be seen by the colorblind)
+  * Tip: if possible, visit the venue beforehand, set up the light conditions to match the light conditions of when you are doing the presentation, and then put your slide deck on screen. Move around the room and check if everything is legible.
+* _Animation issues when exporting/importing/loading_ a slide deck in different software
+  * Tip: use your own hardware if you can!!! If you can’t, expect animations and font rendering to break in all kinds of funny ways, so design your slide deck with that in mind.
+* _Information overload_ 😂
+
+---
+
+## Hacks
+
+* Add _disclaimers_ to the start of your presentation!
+  * If you’re not confident about your knowledge on a subject, say so! Then you become confident in your lack of confidence... 🧠💯
+* Use _recurring elements_ to increase confidence
+  * e.g. jokes about JavaScript
+
+---
+
+<Invert>
+
+# Final Act: The Recap, Takeaway
+
+</Invert>
+
+---
+
+If you want to have a great presentation:
+
+<Appear>
+<span>
+
+
+* Be _Confident_, _Comfortable_, and _Enjoy_ presenting.
+* Think about _Subject_, _Theme_, and _Quirk_
+* Greatness takes time.
+
+</span>
+<span>
+
+So, don't. To _uphold the meta_. 😄
+
+</span>
+</Appear>
+
+---
+
+<Invert>
+
+# Thanks!
+
+</Invert>
