@@ -2,7 +2,7 @@
 
 A Presentation about making presentations... shit again!?
 
-Made with [MDX-Deck](https://github.com/jxnblk/mdx-deck).
+Made with [MDX-Deck](https://github.com/jxnblk/mdx-deck). Served via GitHub Pages at https://jorisvddonk.github.io/meta-presentation/
 
 This is _potentially_ a living presentation; new information may be added, and things may be changed in the future.
 
