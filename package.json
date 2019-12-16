@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "author": "Joris van de Donk <jorisvddonk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gatsby": "^2.18.12",
+    "gatsby-theme-mdx-deck": "^3.0.13",
     "mdx-deck": "^3.0.13",
     "qrcode.react": "^1.0.0"
   }
