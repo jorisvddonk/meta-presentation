@@ -11,6 +11,6 @@ Ironically (or not?), this presentation itself isn't that great; it makes a few 
 ## Running / developing
 
 ```
-npm i
-npm run start
+yarn
+yarn start
 ```

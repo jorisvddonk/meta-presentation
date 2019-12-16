@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
+    "start": "mdx-deck decks/index.mdx",
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
@@ -17,5 +17,8 @@
     "gatsby-theme-mdx-deck": "^3.0.13",
     "mdx-deck": "^3.0.13",
     "qrcode.react": "^1.0.0"
+  },
+  "resolutions": {
+    "mdx-deck/**/gatsby": "2.18.4"
   }
 }
