@@ -11,4 +11,5 @@ module.exports = {
   plugins: [
     'gatsby-theme-mdx-deck'
   ],
+  pathPrefix: "/meta-presentation",
 }
